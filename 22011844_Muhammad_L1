@@ -1,0 +1,37 @@
+#include <iostream>
+using namespace std;
+
+struct Student{
+    int id;
+    string name;
+    int contact;
+    string email;
+};
+
+int main(){
+    Student student[5];
+    
+    int i = 0;
+    
+    for (i = 0; i<5 ; i++){
+        cout<<"Student id: ";
+        cin>> student[i].id;
+        cout<<"Student name: ";
+        cin>> student[i].name;
+        cout<<"Student contact: ";
+        cin>> student[i].contact;
+        cout<<"Student email: ";
+        cin>>student[i].email;
+    }
+    
+    int j = 0;
+    
+    for (j=0; j<5; j++){
+        cout<<"Student's id: " + student[j].id + "/n";
+        cout<<"Student's name: " + student[j].name + "/n";
+        cout<<"Student's contact: " + student[j].contact + "/n";
+        cout<<"Student's email: " + student[j].email + "/n";
+    }
+
+    return 0;
+}
