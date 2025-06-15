@@ -27,10 +27,10 @@ int main(){
     int j = 0;
     
     for (j=0; j<5; j++){
-        cout<<"Student's id: " + student[j].id + "/n";
-        cout<<"Student's name: " + student[j].name + "/n";
-        cout<<"Student's contact: " + student[j].contact + "/n";
-        cout<<"Student's email: " + student[j].email + "/n";
+        cout<<"Student's id: " << student[j].id << "\n";
+        cout<<"Student's name: " + student[j].name + "\n";
+        cout<<"Student's contact: " << student[j].contact << "\n";
+        cout<<"Student's email: " + student[j].email + "\n";
     }
 
     return 0;
