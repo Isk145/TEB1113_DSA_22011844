@@ -33,7 +33,7 @@ public:
     }
 
     void delete_node(Node* target) {
-        if (head == nullptr || target == nullptr) return;
+        if (head == nullptr or target == nullptr) return;
 
         if (head == target) {
             head = head->next;
